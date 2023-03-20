@@ -1,0 +1,53 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Laksu/IrisClustering/ClusterAnalysis/target/classes;C:/Users/Laksu/IrisClustering/ClusterAnalysis/target/test-classes;C:/Users/Laksu/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/Laksu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/Laksu/.m2/repository/net/sourceforge/javaml/0.1.7/javaml-0.1.7.jar;C:/Users/Laksu/.m2/repository/be/abeel/ajt/2.9/ajt-2.9.jar;C:/Users/Laksu/.m2/repository/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'C:/Users/Laksu/IrisClustering/ClusterAnalysis/src/test/java;C:/Users/Laksu/IrisClustering/ClusterAnalysis/target/generated-test-sources/test-annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Laksu/IrisClustering/ClusterAnalysis/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ClusterAnalysis 1.0.0 Test API'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/Laksu/IrisClustering/ClusterAnalysis/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ClusterAnalysis 1.0.0 Test API'
+com.laksumi.iriskmeans
+'C:/Users/Laksu/IrisClustering/ClusterAnalysis/src/test/java/com/laksumi/iriskmeans/AppTest.java'
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\classes = 1679286361984
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\test-classes = 1679286362113
+C:\Users\Laksu\.m2\repository\junit\junit\4.11\junit-4.11.jar = 1674755748545
+C:\Users\Laksu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1674755748561
+C:\Users\Laksu\.m2\repository\net\sourceforge\javaml\0.1.7\javaml-0.1.7.jar = 1679192451800
+C:\Users\Laksu\.m2\repository\be\abeel\ajt\2.9\ajt-2.9.jar = 1679192452178
+C:\Users\Laksu\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar = 1678195904360
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\src\test\java = 1679182326223
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\generated-test-sources\test-annotations = 1679286362026
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\allclasses-frame.html = 1679286368752
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\allclasses-noframe.html = 1679286368756
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\constant-values.html = 1679286368678
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\deprecated-list.html = 1679286368742
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\help-doc.html = 1679286368772
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\index-all.html = 1679286368732
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\index.html = 1679286368759
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\overview-tree.html = 1679286368722
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\package-list = 1679286368635
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\script.js = 1679286368786
+C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\site\testapidocs\stylesheet.css = 1679286368782
