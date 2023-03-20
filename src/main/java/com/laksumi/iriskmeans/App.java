@@ -43,8 +43,8 @@ public class App
         double bic4 = bic.score(clusterBy4);
         double squaredError4 = squaredError.score(clusterBy4);
 
-        System.out.println("The AIC score is: " + aic3 + " " + aic4);
-        System.out.println("The BIC score is: " + bic3 + " " + bic4);
+        System.out.println("The AIC score is: " + aic3 + "\t" + aic4);
+        System.out.println("The BIC score is: " + bic3 + "\t" + bic4);
         System.out.println("Sum of squared errors: " + squaredError3 + " " + squaredError4);
     }
 }
