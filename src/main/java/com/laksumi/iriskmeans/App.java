@@ -32,7 +32,7 @@ public class App
         Dataset[] clusterBy4 = kmean4.cluster(data);
 
         ClusterEvaluation aic = new AICScore();
-        ClusterEvaluation bic = new AICScore();
+        ClusterEvaluation bic = new BICScore();
         ClusterEvaluation squaredError = new SumOfSquaredErrors();
 
         double aic3 = aic.score(clusterBy3);
@@ -42,5 +42,9 @@ public class App
         double aic4 = aic.score(clusterBy4);
         double bic4 = bic.score(clusterBy4);
         double squaredError4 = squaredError.score(clusterBy4);
+
+        System.out.println("The AIC score is: " + aic3 + " " + aic4);
+        System.out.println("The BIC score is: " + bic3 + " " + bic4);
+        System.out.println("Sum of squared errors: " + squaredError3 + " " + squaredError4);
     }
 }
