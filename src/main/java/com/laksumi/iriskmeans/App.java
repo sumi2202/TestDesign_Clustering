@@ -34,5 +34,13 @@ public class App
         ClusterEvaluation aic = new AICScore();
         ClusterEvaluation bic = new AICScore();
         ClusterEvaluation squaredError = new SumOfSquaredErrors();
+
+        double aic3 = aic.score(clusterBy3);
+        double bic3 = bic.score(clusterBy3);
+        double squaredError3 = squaredError.score(clusterBy3);
+
+        double aic4 = aic.score(clusterBy4);
+        double bic4 = bic.score(clusterBy4);
+        double squaredError4 = squaredError.score(clusterBy4);
     }
 }
