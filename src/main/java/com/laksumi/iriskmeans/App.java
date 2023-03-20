@@ -15,9 +15,13 @@ import net.sf.javaml.tools.data.FileHandler;
  */
 public class App 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        Dataset data = new Dataset("iris.data");
         Dataset data = FileHandler.loadDataset(new File("iris.data"), 4, ",");
-        Clusterer km = new KMeans();
+        Clusterer kmean3 = new KMeans(3);
+        Clusterer kmean4 = new KMeans(4);
+
+        Dataset[] clusterBy3 = kmean3.cluster(data);
+        Dataset[] clusterBy4 = kmean4.cluster(data);
     }
 }
