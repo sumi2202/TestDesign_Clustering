@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.laksumi.iriskmeans.AppTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.laksumi.iriskmeans.AppTest" time="0.032" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Laksu\AppData\Local\Temp\surefire4423857302926582840\surefirebooter6071258376004115494.jar C:\Users\Laksu\AppData\Local\Temp\surefire4423857302926582840 2023-03-20T21-12-24_178-jvmRun1 surefire6689150737841193511tmp surefire_06953270159155489740tmp"/>
+    <property name="sun.java.command" value="C:\Users\Laksu\AppData\Local\Temp\surefire7117121963150339437\surefirebooter9201928380408148717.jar C:\Users\Laksu\AppData\Local\Temp\surefire7117121963150339437 2023-03-20T22-36-49_206-jvmRun1 surefire5248510079361470573tmp surefire_09185911458246167950tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\test-classes;C:\Users\Laksu\IrisClustering\ClusterAnalysis\target\classes;C:\Users\Laksu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Laksu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Laksu\.m2\repository\net\sourceforge\javaml\0.1.7\javaml-0.1.7.jar;C:\Users\Laksu\.m2\repository\be\abeel\ajt\2.9\ajt-2.9.jar;C:\Users\Laksu\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Laksu"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Laksu\AppData\Local\Temp\surefire4423857302926582840\surefirebooter6071258376004115494.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Laksu\AppData\Local\Temp\surefire7117121963150339437\surefirebooter9201928380408148717.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\resources.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\rt.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jsse.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jce.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\charsets.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\lib\jfr.jar;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.laksumi.iriskmeans.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.laksumi.iriskmeans.AppTest" time="0.001"/>
 </testsuite>

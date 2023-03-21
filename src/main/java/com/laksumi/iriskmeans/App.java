@@ -60,25 +60,37 @@ public class App
         for(int i = 0; i < clusterBy1.length; i++){
             System.out.println(clusterBy1[i] + "\t");
         }
+        System.out.println("The AIC score for k = 1 is: " + aic1);
+        System.out.println("The BIC score for k = 1 is: " + bic1);
+        System.out.println("Sum of squared errors for k = 1: " + squaredError1);
 
         System.out.println("KMeans Cluster where k = 2:");
         for(int i = 0; i < clusterBy2.length; i++){
             System.out.println(clusterBy2[i] + "\t");
         }
+        System.out.println("The AIC score for k = 2 is: " + aic2);
+        System.out.println("The BIC score for k = 2 is: " + bic2);
+        System.out.println("Sum of squared errors for k = 2: " + squaredError2);
 
         System.out.println("KMeans Cluster where k = 3:");
         for(int i = 0; i < clusterBy3.length; i++){
             System.out.println(clusterBy3[i] + "\t");
         }
+        System.out.println("The AIC score for k = 3 is: " + aic3);
+        System.out.println("The BIC score for k = 3 is: " + bic3);
+        System.out.println("Sum of squared errors for k = 3: " + squaredError3);
 
         System.out.println("KMeans Cluster where k = 4:");
         for(int i = 0; i < clusterBy4.length; i++){
             System.out.println(clusterBy4[i] + "\t");
         }
+        System.out.println("The AIC score for k = 4 is: " + aic4);
+        System.out.println("The BIC score for k = 4 is: " + bic4);
+        System.out.println("Sum of squared errors for k = 4: " + squaredError4);
 
-        System.out.println("The AIC score is: " + aic3 + "\t" + aic4);
-        System.out.println("The BIC score is: " + bic3 + "\t" + bic4);
-        System.out.println("Sum of squared errors: " + squaredError3 + " " + squaredError4);
+        System.out.println("The AIC score is: " + aic1 + "\t" + aic2 + "\t" + aic3 + "\t" + aic4);
+        System.out.println("The BIC score is: " + bic1 + "\t" + bic2 + "\t" + bic3 + "\t" + bic4);
+        System.out.println("Sum of squared errors: " + squaredError1 + "\t" + squaredError2 + "\t" + squaredError3 + "\t" + squaredError4);
 
     }
 }
