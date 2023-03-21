@@ -56,15 +56,22 @@ public class App
         double bic4 = bic.score(clusterBy4);
         double squaredError4 = squaredError.score(clusterBy4);
 
+        System.out.println("KMeans Cluster where k = 1:");
         for(int i = 0; i < clusterBy1.length; i++){
             System.out.println(clusterBy1[i] + "\t");
         }
+
+        System.out.println("KMeans Cluster where k = 2:");
         for(int i = 0; i < clusterBy2.length; i++){
             System.out.println(clusterBy2[i] + "\t");
         }
+
+        System.out.println("KMeans Cluster where k = 3:");
         for(int i = 0; i < clusterBy3.length; i++){
             System.out.println(clusterBy3[i] + "\t");
         }
+
+        System.out.println("KMeans Cluster where k = 4:");
         for(int i = 0; i < clusterBy4.length; i++){
             System.out.println(clusterBy4[i] + "\t");
         }
