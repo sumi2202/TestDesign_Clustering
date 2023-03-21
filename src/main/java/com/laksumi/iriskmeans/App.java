@@ -69,6 +69,7 @@ public class App
         System.out.println("The AIC score for k = 1 is: " + aic1);
         System.out.println("The BIC score for k = 1 is: " + bic1);
         System.out.println("Sum of squared errors for k = 1: " + squaredError1);
+        System.out.println();
 
         System.out.println("KMeans Cluster where k = 2:");
         for(int i = 0; i < clusterBy2.length; i++){
@@ -77,6 +78,7 @@ public class App
         System.out.println("The AIC score for k = 2 is: " + aic2);
         System.out.println("The BIC score for k = 2 is: " + bic2);
         System.out.println("Sum of squared errors for k = 2: " + squaredError2);
+        System.out.println();
 
         System.out.println("KMeans Cluster where k = 3:");
         for(int i = 0; i < clusterBy3.length; i++){
@@ -85,6 +87,7 @@ public class App
         System.out.println("The AIC score for k = 3 is: " + aic3);
         System.out.println("The BIC score for k = 3 is: " + bic3);
         System.out.println("Sum of squared errors for k = 3: " + squaredError3);
+        System.out.println();
 
         System.out.println("KMeans Cluster where k = 4:");
         for(int i = 0; i < clusterBy4.length; i++){
@@ -93,6 +96,7 @@ public class App
         System.out.println("The AIC score for k = 4 is: " + aic4);
         System.out.println("The BIC score for k = 4 is: " + bic4);
         System.out.println("Sum of squared errors for k = 4: " + squaredError4);
+        System.out.println();
 
         //Printing all the clusters
         System.out.println("The AIC score is: " + aic1 + "\t" + aic2 + "\t" + aic3 + "\t" + aic4);
