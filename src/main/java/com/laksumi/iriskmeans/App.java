@@ -24,10 +24,14 @@ public class App
 {
     public static void main(String[] args) throws IOException {
 //        Dataset data = new Dataset("iris.data");
-        Dataset data = FileHandler.loadDataset(new File("iris.data"), 4, ",");
+        Dataset data = FileHandler.loadDataset(new File("src/main/java/com/laksumi/iriskmeans/iris.data"), 4, ",");
+
+        Clusterer kmean1 = new KMeans(1);
+        Clusterer kmean2 = new KMeans(2);
         Clusterer kmean3 = new KMeans(3);
         Clusterer kmean4 = new KMeans(4);
 
+        Dataset[] clusterBy2 = kmean2.cluster(data);
         Dataset[] clusterBy3 = kmean3.cluster(data);
         Dataset[] clusterBy4 = kmean4.cluster(data);
 
@@ -43,8 +47,13 @@ public class App
         double bic4 = bic.score(clusterBy4);
         double squaredError4 = squaredError.score(clusterBy4);
 
+        for(int i = 0; i < clusterBy3.length; i++){
+            System.out.println(clusterBy3[i]);
+        }
+
         System.out.println("The AIC score is: " + aic3 + "\t" + aic4);
         System.out.println("The BIC score is: " + bic3 + "\t" + bic4);
         System.out.println("Sum of squared errors: " + squaredError3 + " " + squaredError4);
+
     }
 }
